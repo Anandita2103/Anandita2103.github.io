@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    background-color: rgb(250, 231, 208);
+    margin: auto;
+    overflow-x: hidden;
+}
+#aboutme,#achievements,#education,#skills,#projects,#contactme{
+    /* margin-left:5rem; */
+    color: #031e3d;
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+    font-weight: bolder;
+    margin: auto;
+    width:70%;
+}
+.about{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.anandita{
+    font-size:80px;
+    font-weight:bolder;
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    border: solid  rgb(250, 231, 208);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#home{
+    text-align: center;
+    background-image: linear-gradient(rgb(47, 19, 84), rgb(127, 10, 156));
+    color:rgb(250, 231, 208);
+    font-family: sans-serif;
+    height:100vh; 
+    padding-top: 2rem;
+    width: 100%;
+}
+.half{
+
+}
+.institute{
+    color: #144272;
+    font-weight: bold;
+    font-size: large;
+}
+.logo{
+    color:rgb(250, 231, 208);
+    font-family: 'Tangerine', cursive;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
+    position: fixed;
+    text-decoration: none;
+    left: 1rem;
+}
+.nav{
+    font-style: italic;
+    height:10vh;
+    position: fixed;
+    right: 0;
+}
+.navitem{
+    color:rgb(250, 231, 208);
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.rest{
+    font-size: medium;
+    font-style: italic;
+    font-weight: normal;
+}
+ul.edutype{
+    color: #205295;
+    list-style-type: disc;
+    margin-left:1rem;
+    font-size: large;
+    font-family: sans-serif;
+    
+}
+.year{
+    font-size: smaller;
+}
+/* #ECF2FF #3A1078 #4E31AA #0A2647 #144272 #205295 #2C74B3*/
