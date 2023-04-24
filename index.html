@@ -12,7 +12,7 @@
 </head>
 <body>
     <section id="home">
-        <section class="nav">
+        <section id="nav">
             <a href="#home" class="navitem logo">A</a>
             <a href="#home" class="navitem">Home</a>
             <a href="#aboutme" class="navitem">About me</a>
@@ -28,9 +28,54 @@
     <section id="aboutme">
         <br>
         <p>About me</p>
-        <p class="about"><br>Determined, flexible, optimistic, enthusiastic and inquisitive second year undergraduate student who is willing to take up new challenges, push her limits and widen her horizons to build a career in software engineering. Eager to apply the gained skills as  well as to acquire new skills for completing the assigned tasks to the best of my abilities. </p>
+        <p class="about"><br>I am Anandita, a B.Tech(ECE) undergraduate student presently in my second year. I have done Data Structures and Algorithms in C++ and I am pursuing full stack web development right now. Moreover, I am learning IOS development as well.</p>
+        <p class="about"><br>Apart from programming, I also enjoy doing arts and crafts. I am a member of Expressions - the fine arts and craft society of our college. Along with that, I am also a Junior associate in Refine - the consulting club of MAIT where we discuss about guesstimates, case studies, etc.</p>
+        <p class="about"><br>You can reach out to me if you have any amazing opportunity or project ideas.</p>
     </section>
-    <section id="skills"></section>
+    <section id="skills">
+        <br>
+        <p>Skills</p>
+        <p class="about"><br></p>
+        <table class="edutype institute">
+            <tr>
+              <td>Web Development<br><div class="container">
+                <div class="skills webdev">85%</div>
+              </div></td>
+              <td>DSA<br><div class="container">
+                <div class="skills dsa">70%</div>
+              </div></td> 
+              <td>IOS Development<br><div class="container">
+                <div class="skills iosdev">35%</div>
+              </div></td>
+            </tr>
+            <tr>
+              <td class="rest">I am proficient in programming with:
+                <ul class="table">
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Javascript</li>
+                    <li>ReactJS</li>
+                    <li>Node.js (Express.js)</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul></td>
+              <td class="rest">I am aware about the concepts of:
+                <ul class="table">
+                    <li>Time and space complexity</li>
+                    <li>Searches</li>
+                    <li>Arrays</li>
+                    <li>Sorting</li>
+                    <li>OOPs concepts</li>
+                    <li>Linked list</li>
+                    <li>Trees</li>
+                    <li>Graphs</li>
+                    <li>Queues</li>
+                </ul></td>
+              <td class="rest">I am learning Swift</td>
+            </tr>
+          </table>
+    </section>
     <section id="education">
         <br>
         <p>Education</p>
@@ -74,13 +119,58 @@
             <li>
                 <p class="institute">Runner-up of Make-It-Happen Hackathon</p>
                 <p class="rest">Organized by Guru Teg Bahadur Institute of Technology</p>
-                <p class="rest year">September 2022</p><br><br>
+                <p class="rest year">September 2022</p><br>
             </li>
         </ul>
     </section>
-    <section id="projects"></section>
-    <section id="contactme">
-        
+    <section id="projects">
+        <br>
+        <p>Projects</p>
+        <br>
     </section>
+    <section id="contactme">
+        <br>
+        <p>Contact me</p>
+        <form action="/" method="post">
+        <p class="form"><br>Name:<br><input type="text" name="nameOfPerson" class="name" placeholder="Enter your name" required></p>
+        <p class="form">Email-id:<br><input type="email" name="emailId" class="name" placeholder="Enter your email-id" required></p>
+        <p class="form">Message:<br><textarea rows="5" name="message" placeholder="Enter message"></textarea></p>
+        <p><input type="submit" name="submit" class="submit"></p></form>
+        <br>
+        <p>
+            <button class="socialMediaButton" onclick="openLinkedIn()"><img class="socialMediaImage" src="./images/LinkedIn.png"></button>
+            <button class="socialMediaButton" onclick="openGitHub()"><img class="socialMediaImage" src="./images/github.png"></button>
+            <button class="socialMediaButton" onclick="openTwitter()"><img class="socialMediaImage" src="./images/twitter.png"></button>
+            <button class="socialMediaButton" onclick="openInsta()"><img class="socialMediaImage" src="./images/insta.png"></button>
+            <button class="socialMediaButton" onclick="openFacebook()"><img class="socialMediaImage" src="./images/fb.jpg"></button>
+        </p>
+        <br>
+    </section>
+    <script type="text/javascript">
+        var nav = document.getElementById('nav');
+        window.onscroll = function () {
+          if (window.pageYOffset > 0) {
+            nav.style.background = "#7F0A9C";
+          }
+          else {
+            nav.style.background = "transparent";
+          }
+        }
+        function openLinkedIn(){
+            window.open("https://www.linkedin.com/in/anandita2103/");
+        }
+        function openGitHub(){
+            window.open("https://github.com/Anandita2103");
+        }
+        function openTwitter(){
+            window.open("https://twitter.com/anandita2103");
+        }
+        function openInsta(){
+            window.open("https://www.instagram.com/anandita2103/");
+        }
+        function openFacebook(){
+            window.open("");
+        }
+      </script>
 </body>
 </html>
